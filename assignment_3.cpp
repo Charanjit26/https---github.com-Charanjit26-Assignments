@@ -62,7 +62,7 @@ int main(){
     cin>>num;
 
     if(num>0){
-        cout<<num<<endl;
+        cout<<"it is a positive number: "<<num<<endl;
     }
     else{
         cout<<"skipped"<<endl;
@@ -73,7 +73,7 @@ int main(){
     //Create a calculator using switch statement to perform addition, subtraction, multiplication and division.
 
 
-    int oprator;
+    char oprator;
     cout<<"enter the oprator: "<<endl;
     cin>>oprator;
    
